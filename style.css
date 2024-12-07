@@ -44,7 +44,8 @@ h1 {
     margin-bottom: 20px;
 }
 
-button {
+#next-btn {
+    font-family: "Bangers", system-ui;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -52,15 +53,16 @@ button {
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-button:disabled {
+#next-btn:hover {
+    background-color: #45a049;
+}
+
+#next-btn:disabled {
     background-color: #ccc;
     cursor: not-allowed;
-}
-
-button:hover {
-    background-color: #45a049;
 }
 
 #score {
